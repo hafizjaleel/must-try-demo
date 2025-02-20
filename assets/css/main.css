@@ -486,11 +486,15 @@ a.boxed-btn, a.bordered-btn, a.cart-btn {
 }
 
 .breadcrumb-text h1 {
-  font-size: 50px;
+  font-size: 70px;
   font-weight: 900;
   color: #fff;
   margin: 0;
   margin-top: 20px;
+}
+
+.breadcrumb-text{
+  margin-bottom: 200px;
 }
 
 .breadcrumb-section {
@@ -501,6 +505,7 @@ a.boxed-btn, a.bordered-btn, a.cart-btn {
   z-index: 1;
   background-attachment: fixed;
   padding-top: 200px;
+  padding-bottom: 0;
 }
 
 .breadcrumb-section:after {
@@ -862,7 +867,7 @@ a.mobile-show {
 }
 
 .logo-carousel-section {
-  background-color: #f5f5f5;
+  background-color: transparent;
   padding: 50px 0;
 }
 
@@ -2408,7 +2413,7 @@ ul.social-link-team li a {
 
 ----------------------------------------------------------------------------- */
 .product-filters {
-  margin-bottom: 80px;
+  margin-bottom: 50px;
 }
 
 .product-filters ul {
